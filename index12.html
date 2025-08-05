@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+       padding: 0px;
+       margin: 0px;
+    }
+    header{
+        height: 100px;
+        background-color: rgb(0, 0, 0);
+        position: fixed;
+        width: 100vw;
+        z-index: 999;
+    }
+    ul{
+        display: flex;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+    }
+    li{
+        color: rgb(29, 136, 190);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        list-style: none;
+        font-size: 60x;
+        margin: 0px 60px;
+    }
+    .container{
+        height: 100vh;
+        background: radial-gradient(circle,aqua,black) ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .box{
+        height: 100px;
+        width: 100px;
+        border: 15px solid rgba(0, 0, 0, 0.807);
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    .box:hover{
+        background: radial-gradient(circle,red,yellow);
+        scale: 1.4;
+    }
+    .link a{
+        color: rgb(90, 128, 14);
+        padding: 100px;
+    }
+    .link a:focus{
+        font-size: 100px;
+    }
+    .section{
+        height: 100px;
+        width: 100vw;
+    }
+    input:active{
+        padding: 10px 20px;
+    }
+    p{
+        position: absolute;
+        top: 300px;
+        left: 200px;
+        right: 100px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: aliceblue;
+    }
+    
+    #logo{
+        width: 250px;
+        height: 150px;
+        position: absolute;
+        top: 160px;
+        left: 120px;
+    }
+    .low{
+        position: absolute;
+        top: 750px;
+        left: 700px;
+    }
+    button{
+        padding: 10px 20px;
+        border: 5px solid rgb(206, 7, 7);
+        border-style: ridge;
+        border-top-right-radius: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-bottom-left-radius: 15px;
+        background: linear-gradient(to left,rgb(5, 83, 128),rgb(0, 190, 187));
+    }
+    button:hover{
+        scale: 1.1;
+    }
+    button:focus{
+        font-size: 30px;
+    }
+    .arrow{
+        position: absolute;
+        top: 750px;
+        left: 810px;
+        font-size: 40px;
+        color: black;
+    }
+    .bodyimgc{
+        height: 750px;
+    }
+    #bodyimg{
+      width: 600px;
+      height: 350px;
+      position: absolute;
+      top: 1050px;
+      left: 100px;
+      border: 5px solid rgb(0, 32, 32);
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      filter: drop-shadow(10px 10px 10px rgb(80, 80, 80));
+    }
+    .bodycontent{
+        position: absolute;
+        top: 1100px;
+        color: black;
+        left: 800px;
+        font-style: oblique;
+        font-size: 20px;
+        filter: drop-shadow(5px 5px 5px rgb(97, 96, 96));
+    }
+    .bodyimg2{
+        height: 600px;
+        
+    }
+    #img2{
+     height: 100vh;
+     width: 100vw;
+    }
+    .container2{
+        height: 100vh;
+        background: radial-gradient(circle,aqua,black) ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        position: relative;
+    }
+    .p2{
+        color: rgb(0, 242, 255) ;
+        position: absolute;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-radius: 30px;
+        top: 1800px;
+        background-color: rgba(0, 0, 0, 0.35);
+        padding: 50px;
+    }
+    </style>
+</head>
+<body>
+<header>
+ <nav>
+    <ul>
+        <li><a href="./index10.html" style="text-decoration: none;color: aqua;">HOME</a></li>
+        <li><a href="./index4.html"style="text-decoration: none;color: aqua;">PRODUCTS</a></li>
+        <li><a href="./index5.html" style="text-decoration: none;color: aqua;">LOGIN</a></li>
+        <li><a href="./index3.html" style="text-decoration: none;color: aqua;">SERVICE</a></li>
+        <li><a href="./index2.html" style="text-decoration: none;color: aqua;">CONTACT US</a></li>
+        <li><a href="./index7.html" style="text-decoration: none;color: aqua;">DESIGNS</a></li>
+    </ul>
+ </nav>
+</header>
+<main>
+ <div class="container">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</div>
+<div class="low">
+    <button>Click on it</button>
+</div>
+<p class="arrow">↓</p>
+    <img src="./Asset 76.png" alt="full logo5" id="logo">
+ <p>At Msoft, we are a cutting-edge software technology firm dedicated to crafting innovative digital solutions with precision, performance, and purpose. Specializing in custom software development, mobile and web applications, enterprise solutions, and cloud integrations, we bring scalable, secure, and user-centric products to life.</p>
+<div class="bodyimgc">   
+ <img src="./Asset 3.png" alt="" id="bodyimg">
+</div>
+<p class="bodycontent">At Msoft, we are a cutting-edge software technology firm dedicated 
+    to crafting innovative digital solutions with precision, performance, and purpose. Specializing
+     in custom software development, mobile and web applications, enterprise solutions, and cloud
+      integrations, we bring scalable, secure, and user-centric products to life.Our strength lies
+       not just in writing clean, efficient code—but in deeply understanding our clients' business
+        needs and delivering technology that drives real results. Whether you're a startup seeking
+         your MVP or an enterprise streamlining complex systems, Msoft provides tailored solutions
+          with a strong focus on quality, speed, and reliability.We pride ourselves on our meticulous
+           development process, robust testing standards, and a commitment to delivering on time—without
+            compromise. At Msoft, quality isn't an afterthought—it's built into every line of code we write.
+        </p>
+ <div class="link">
+     <a href="#">CLICK THE LINK</a>
+    </div>
+ <div class="bodyimg2">
+ <img src="./Elegant Tiles Wall Logo Mockup.png" alt="image having content" id="img2">
+ </div>
+  <p class="p2">At Msoft, we are a technology-driven software firm specializing in building high-performance
+     web solutions that drive business growth and digital transformation. Our core strength lies
+      in web development, where we craft scalable, secure, and intuitive web applications tailored
+       to your goals.We bring together modern frameworks, clean architecture, and seamless user experience
+        to deliver fast, reliable, and future-ready web platforms. From responsive websites to complex web
+         portals and SaaS platforms, our team handles every layer—from front-end design to back-end
+          engineering—with precision.</p>
+    <div class="container2">
+       <div class="box"></div>
+       <div class="box"></div>
+       <div class="box"></div>
+       <div class="box"></div>
+       <div class="box"></div>
+       <div class="box"></div>
+       <div class="box"></div>
+       <div class="box"></div>
+    </div>
+</main> 
+</body>
+</html>
